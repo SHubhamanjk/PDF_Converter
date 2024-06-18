@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">PDF Converter</h1>
+        <div class="options">
+            <a href="{{ url_for('text_to_pdf_page') }}" class="btn">Text to PDF Converter</a>
+            <a href="{{ url_for('speech_to_pdf_page') }}" class="btn">Speech to PDF Converter</a>
+        </div>
+    </div>
+</body>
+</html>

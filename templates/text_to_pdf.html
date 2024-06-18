@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to PDF Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Text to PDF Converter</h1>
+        <form method="post" enctype="multipart/form-data" id="uploadForm">
+            <label for="file" class="btn">Choose File</label>
+            <input type="file" id="file" name="file" accept=".txt" required onchange="fileUploaded()">
+            <button type="submit" class="btn">Convert</button>
+        </form>
+        <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+    </div>
+    <div id="uploadMessage" class="success-message">File has been successfully uploaded!</div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
