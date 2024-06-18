@@ -22,7 +22,7 @@ body {
 }
 
 .container:hover {
-    transform: scale(2);
+    transform: scale(1.3);
 }
 
 .title {
@@ -48,17 +48,28 @@ input[type="file"] {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #49d313;
+    background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    animation: pulse 1s infinite alternate; 
 }
 
 .btn:hover {
-    background-color: #3ca10d;
+    background-color: #49d313;
+    animation: none; 
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
 
 .success-message {
