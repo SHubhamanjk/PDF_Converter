@@ -16,13 +16,13 @@ body {
     padding: 50px;
     background-color: #141414;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 3);
     text-align: center;
     transition: transform 0.3s ease;
 }
 
 .container:hover {
-    transform: scale(1.05);
+    transform: scale(2);
 }
 
 .title {
