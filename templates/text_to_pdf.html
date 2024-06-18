@@ -11,6 +11,8 @@
 <body>
     <div class="container">
         <h1 class="title">Text to PDF Converter</h1>
+        <p class="subtitle">Upload a.txt type file to convert to PDF</p>
+
         <form method="post" enctype="multipart/form-data" id="uploadForm">
             <label for="file" class="btn">Choose File</label>
             <input type="file" id="file" name="file" accept=".txt" required onchange="fileUploaded()">
