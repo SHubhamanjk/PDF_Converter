@@ -57,6 +57,18 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
     https://pdf-converter-pwj3.onrender.com
 
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+Developed by **Shubham Kumar Gupta**  
+- **GitHub**: [SHubhamanjk](https://github.com/SHubhamanjk)
+- **Email**: shubhashubham07kumargupta@gmail.com
+- **LinkedIn**: [Shubham Kumar Gupta](https://www.linkedin.com/in/shubhamiitpatna) 
+
+
+
 ## Practical Demonstration
 
          https://screenrec.com/share/PGpO8z9Rbn
